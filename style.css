@@ -147,7 +147,6 @@ span{
     text-decoration: none;
     color: white;
     font-size: 1.5em;
-
 }
 
 .social-link li{ 
@@ -163,6 +162,7 @@ span{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .hr {
     margin-top: 280px;
