@@ -8,6 +8,9 @@ body {
 
 
 nav {
+    position: fixed;
+    top:0;
+    width: 100%;
     font-size: 1.3em;
     background-color: #FF0000;
     display: flex;
@@ -40,13 +43,14 @@ li:hover .item-link{
 
 #welcome-section {
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     background-color: #3B0000;
 }
 
 header{
     width: 50%;
-    margin: 20% auto;
+    margin: auto;
+    padding-top: 250px;
     text-align: center;
     color: white;
 }
@@ -90,13 +94,13 @@ span{
  }
 
 #project-container {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
 
 .project-div {
-    padding: 25px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -119,7 +123,7 @@ span{
 #profile-link{
     text-align: center;
     color: white;
-    height: 100vh;
+
     background-color: #3B0000;
 }
 
@@ -145,7 +149,7 @@ span{
 
 }
 
-.social-link li{
+.social-link li{ 
     list-style: none;
     padding: 10px 50px;
 }
@@ -156,6 +160,7 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hr {
@@ -164,6 +169,55 @@ span{
 }
 
 footer{
-    padding-top: 10px;
+    padding: 10px 0;
     color: rgb(170, 170, 170);
+}
+
+.social-link {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.social-link li{ 
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    #project-container {
+        width: 80%;
+    }
+
+    #projects h2 {
+        font-size: 2em;
+    }
+
+    #main-header {  
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    
+}
+
+
+@media (max-width: 767px) {
+    #project-container {
+        width: 90%;
+    }
+
+    #projects h2 {
+        font-size: 1.5em;
+    }
+
+    #main-header {  
+        font-size: 2em;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding-top: 300px;
+    }
 }
