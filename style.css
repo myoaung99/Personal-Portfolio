@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #3B0000;
+    
 }
 
 
@@ -41,25 +41,24 @@ li:hover .item-link{
 #welcome-section {
     padding: 0;
     height: 100vh;
+    background-color: #3B0000;
 }
 
 header{
     width: 50%;
-    margin: 16% auto;
+    margin: 20% auto;
     text-align: center;
     color: white;
 }
 
 
-
-#main-header {
-    
+#main-header {  
     font-size: 4em;
     font-weight: 700;
 }
 
 #job {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-style: italic;
 }
 
@@ -67,4 +66,104 @@ span{
     color: #FF0000;
 }
 
+#projects{
+    background-color: #020838;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
+
+.project-section-title {
+    padding: 100px 0;
+    color: black;
+}
+
+#projects h2{
+   font-size: 3em;
+   font-weight: bold;
+   color: white;
+   text-decoration: underline;
+}
+
+#projects a{
+    text-decoration: none;
+ }
+
+#project-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.project-div {
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.project-div h3{
+    background-color: rgb(53, 53, 53);
+    padding: 20px 0;
+    color: rgb(170, 170, 170);
+}
+
+.btn-primary {
+    border: 1px solid rgb(53, 53, 53);
+    background-color: rgb(53, 53, 53);
+}
+
+.btn-primary:hover {
+    border: 1px solid rgb(92, 92, 92);
+    background-color: rgb(92, 92, 92);
+}
+
+#profile-link{
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-color: #3B0000;
+}
+
+.profile-link-div {
+    width: auto;
+    padding-top: 300px;
+}
+
+.profile-link-div h3{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.profile-link-div p{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.social-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.social-link li{
+    list-style: none;
+    padding: 10px 50px;
+}
+
+.social-link {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hr {
+    margin-top: 280px;
+    color: white;
+}
+
+footer{
+    padding-top: 10px;
+    color: rgb(170, 170, 170);
+}
